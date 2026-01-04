@@ -2,7 +2,7 @@
 import { GoogleGenAI } from "@google/genai";
 import { FortuneInput, Language } from '../types';
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const ai = new GoogleGenAI({ "AIzaSyB3jvBQyq6jcJ-3qwaTms4yG_W8n0V8PpU" });
 
 // Face/Palm Reading Service
 export const analyzePhysiognomy = async (base64Images: string[], language: Language): Promise<string> => {
