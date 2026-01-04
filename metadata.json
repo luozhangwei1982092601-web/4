@@ -1,0 +1,8 @@
+{
+  "name": "Copy of Eastern Culture Fortune Telling",
+  "description": "A comprehensive AI-powered Chinese fortune telling application offering Bazi reading, Face/Palm reading, and Feng Shui music.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
